@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 65px;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* Navbar */
+
+
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: #0005;
+  line-height: 50px;
+}
+nav ul{
+  float: left;
+  margin-right: 10px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#FF5959;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+
+
+/* ==============
+MAIN SECTION
+============== */
+main > img {
+  filter: brigh(30%);
+  filter: brightness(50%);
+}
+
+.bg-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+
+}
+
+.main-section {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 40%;
+}
+
+
+/* ==============
+Donate money
+============== */
+
+
+.donate-money {
+  text-align: center;
+  margin-top: 70px;
+
+}
+
+.donate-money li {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 60px;
+
+}
+
+.donate-title {
+  text-align: center;
+  
+}
+.donate-money p {
+  margin-top: 20px;
+  
+}
+
+.donate-amount {
+  font-size: 30px;
+  font-weight: 800;
+  color: #707070;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  padding: 35px 65px;
+  background-color: #FAFAFA;
+
+}
+
+#select-amount {
+  color: #FF5959;
+  border: 2px solid #FF5959;
+  background-color: #FFEEEE;
+
+}
+
+/* =============
+  Input Box
+============= */
+
+
+.donate {
+  font: #DADADA;
+  font-size: 28px;
+  text-align: center;
+  height: 70px;
+  width: 60%;
+  color: #CCC;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: #DADADA;
+
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+
+
+
+
+
+
+/* FLEXIABLE CONTAINER */
+
+.section {
+  display: flex;
+  margin-bottom: 150px;
+  padding: 0 50px;
+  text-align: center;
+
+
+}
+
+
+.half {
+  width: 100%;
+}
+
+.half > img {
+  width: 80%;
+
+}
+
+/* Donate Button */
+
+.donate-button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, #ff9d77, #fe575e);
+  font-weight: 700;
+  padding: 10px 40px;
+  margin: 40px auto;
+  border-radius: 5px;
+  color: white;
+}
+
+
+/* donate plan  */
+
+.donate-plan {
+  text-align: center;
+  margin: 0 22%;
+  padding: 0 0 30px 0;
+}
+
+.donate-type {
+  width: 20%;
+  margin-left: 7%;
+  margin-right: 2%;
+  padding: 20px;
+  box-shadow: 10px 10px 15px gray;
+  border-radius: 2px;
+  text-align: left;
+  
+}
+.plan-img {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 25%;
+}
+
+
+.project {
+  width: 20%;
+  font-size: 2px;
+  margin-left: 7%;
+  margin-right: 2%;
+  padding: 20px;
+  box-shadow: 10px 10px 15px gray;
+  border-radius: 2px;
+  text-align: left;
+  
+}
+
+
+
+.project-img {
+  width: 100%;
+  height: 20vh;
+ 
+
+}
+
+#food {
+  background-color: #edf5f6;
+
+}
+
+#shalter {
+  background-color: #ffeeee;
+
+}
+
+#education {
+  background-color: #fff4d6;
+}
+
+
+
+
+
+
+
+/* contribution */
+
+.contribution {
+  display: flex;
+  margin-bottom: 150px;
+  margin: 30px;
+  padding: 0 50px;
+  text-align: center;
+
+
+}
+
+.contribution-right {
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: left;
+  margin-bottom: 250px;
+
+}
+
+.contribution-left {
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: left;
+
+}
+
+.contribution h2,
+p {
+  padding-right: 50px;
+}
+
+
+
+
+/* subscriber */
+
+.subscriber-container {
+padding-top: 50px;
+text-align: center;
+line-height: 50px;
+}
+
+.subscribers {
+  display: inline-block;
+  background-color: #fff4d6;
+  padding: 30px 40px;
+  margin: 30px 20px 30px 20px;
+  padding-right: 300px;
+}
+.email-container {
+  display: flex;
+  justify-items:center;
+  
+}
+
+.input-subscriber {
+  display: inline;
+  font: #a9a9a9;
+  background-color: #D9D9D9;
+  font-size: 28px;
+  text-align: left;
+  color: #CCC;
+  border: none;
+  border-color: #DADADA;
+  margin-left: 28%;
+  
+  
+}
+
+#subscribe {
+  height: 50px;
+  margin:0 50% 0 0;
+  text-align: middle;
+}
+
+
+/* =========
+  FOOTER
+==========*/
+
+
+footer {
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  line-height: 80px;
+  color:#D9D9D9;
+}
+
+footer h2 {
+  color: #FF5959;
+  padding-right: 65px;
+  font-family: 'The Nautigal', cursive;
+  font-weight: bolder;
+
+
+}
